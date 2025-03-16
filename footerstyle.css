@@ -1,0 +1,129 @@
+body{
+    position: relative;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    height: 577px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.sub_footer1{
+    height: 58%;
+    width: 100%;
+    display: flex;
+}
+.sub_footer2{
+    height: 34%;
+    width: 100%;
+}
+.sub_footer3{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sub_footer1_li{
+    display: inline-flex;
+    margin-left: 37px;
+    justify-content: center;
+    width: 335px;
+}
+.sub_footer1_li ul{
+    margin: 38px;
+    list-style: none;
+}
+
+.sub_footer1_li ul li:first-child{
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.sub_footer1_li ul li{
+    margin-bottom: 17px;
+    
+}
+.sub_footer1_li ul li a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-size: 14px;
+}
+.sub_footer1_p{
+    width: 300px;
+    height: 100%;
+    margin: 0px 150px;
+}
+.sub_footer1_p p{
+    margin: 38px 0px;
+    margin-bottom: 31px;
+    line-height: 25px;
+    color: rgb(71, 71, 71);
+}
+.sub_footer1_p a{
+    margin-top: 0px;
+    text-decoration:none;
+    color: rgb(69, 69, 69);
+    font-weight: 700;
+}
+.read_more{
+    border-bottom: 1px solid black;
+    width: 89px;
+}
+.sub_footer2_1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sub_footer2_2{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+}
+.sub_footer2_3{
+    height: 45%;
+    width: 100%;
+    display: flex; 
+    justify-content: center;      
+}
+.sub_footer2_1  img {
+    height: 20px;
+    width: 18px;
+    margin: 5px 5px;
+}
+.sub_footer2_2 p{
+    margin: 0px;
+}
+.sub_footer2_3  img{
+    height: 40px;
+    width: 170px;
+    margin-top: 5.5px;
+}
+.sub_footer3_1{
+    height: 100%;
+    width: 37%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 12px;
+}
+.sub_footer3_2{
+    height: 100%;
+    width: 31%;
+    display: flex;
+    align-items: center;
+}
+.sub_footer3_1 a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    margin: 0px 11px;
+}
+.sub_footer3_2 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(62, 62, 62);
+    margin-left: 7px;
+}

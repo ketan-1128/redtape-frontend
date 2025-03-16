@@ -1,0 +1,226 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: lato;
+    letter-spacing: 0.99px;
+}
+nav{
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_nav{
+    width: 100%;
+    height: 53px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+}
+.sub_nav_border{
+    border-bottom: 1px solid rgb(237, 236, 236); 
+    height: 60px;
+ }
+.redtape_logo_div{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-left: 39vw;
+}
+.redtape_logo{
+    height: 40px;
+    cursor: pointer;
+    
+}
+.nav_upper_right{
+    display: flex;
+    height: 40px;
+    width: 30vw;
+    align-items: center;
+}
+.nav_upper_right_elements{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 14px;
+    font-weight:500;
+    margin-left: 16px;
+    margin-right: 10px;
+}
+.loginmenu:hover .sub_login{
+    display:flex;   
+}
+.sub_login{
+    background-color:white;
+    position: absolute;
+    right: 220px;
+    top: 50px;
+    z-index: 100;
+    height: 125px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    display: none;
+}
+
+
+.sub_login ul{
+    list-style: none;
+    color: rgb(71, 71, 71);
+    margin: 0;
+    padding: 0;
+}
+
+.sub_login ul li{
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.menu{
+    display: flex;
+    margin-right: auto;
+    margin-left: 36vw;
+    height: 100%;
+    align-items: center;
+}
+.dropdown_img{
+    height: 10px;
+    margin-left: 10px;
+    transition: transform 0.0s ease;
+}
+.menu_item:hover .dropdown_img {
+    transform: rotate(180deg);
+  }
+.menu_item{
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    position: relative;    
+}
+.menu_item_name{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    margin-left: 22px; 
+}
+.drop{
+    background-color: rgb(239, 239, 239);
+    min-height: 60px;
+    height: auto;
+    width: 98.9vw;
+    display: none;
+    position:fixed;
+    left: 0;
+    top:100px;
+    z-index: 100;
+    cursor: auto;    
+}
+
+.menu_item:hover .drop{
+    display: block;
+}
+.sub_menu{
+    height: auto;
+    width: 180px;
+    display: inline-flex;
+    position: relative;
+    margin-top: 29px;    
+    margin-bottom: 29px;   
+    border-right: 1px solid rgb(231, 229, 229);
+    cursor: pointer;
+}
+
+
+.drop .sub_menu1{
+    margin-left: 140px;
+}
+.sub_menu ul{
+    align-self: first baseline;
+    margin: 0px;
+}
+.sub_menu  ul li{
+    list-style: none;
+    margin-top: 11px;
+    margin-bottom: 5px;
+}
+.sub_menu ul li a{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+    font-size: 13px;
+}
+.sub_menu ul> a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-weight: 600;
+}
+.Accessories ul li a{
+    font-size: 13.9px;
+    color: rgb(57, 57, 57);
+}
+
+.icons_div{
+    height: 100%;
+    width: 200px;
+    margin-right: 11vw;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.icons{
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    position: relative;
+}
+.icons img{
+    height: 22px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.wishlist_icon{
+    transition: 0.0s ease;
+    
+}
+.icons .notification{
+    background-color: rgb(230, 48, 48);
+    position: absolute;
+    right: -3px;
+    top: -7px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+.wishlist_icon:hover{
+    height:23px;
+    width: 23px;
+}
+.nav_service{
+    display: flex;
+    height: 100%;
+    width:43vw;
+    margin-right: 3vw;
+    justify-content: space-between;
+}
+.nav_service_item{
+    display: flex;
+    align-items: center;
+}
+.nav_service_item_name{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
